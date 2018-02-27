@@ -1,0 +1,11 @@
+{
+	"name": "B",
+	"manifest_version": 2,
+	"version": "1.0",
+	"author": "Mike Gallant",
+	"description": "Replace b or B with the B emoji.",
+	"content_scripts": [{
+		"matches": ["http://*/*","https://*/*"],
+		"js": ["transform.js"]
+	}]
+}
